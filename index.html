@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodbook</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/imageslider.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!-- Start of Header -->
+   <!-- <header>
+         <nav>
+            <h1 class="logo"><a href="index.html">Foodbook</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+               <li>
+                  <a href="#">Browse Recipes <i class="fas fa-caret-down"></i></a>
+                  <ul class="dropdown">
+                     <li><a href="Chicken/chicken.html">Chicken</a></li>
+                     <li><a href="Pork/pork.html">Pork</a></li>
+                     <li><a href="Beef/beef.html">Beef</a></li>
+                     <li><a href="Seafood/seafood.html">Seafood</a></li>
+                  </ul>
+               </li>
+                     <li><a href="about.html">About Us</a></li>
+                     <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+         </nav>
+   </header> -->
+   <!-- End of Header -->
+
+   <!-- start of 2nd header -->
+   <header class="header">
+    <div class="logo"><a href="./index.html">Foodbook</a></div>
+    <input type="checkbox" id="toggle">
+    <label for="toggle"><img src="./fas fa-bar.svg" alt="menu"></label>
+    <nav class="navigation">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Browse Recipes <i class="fas fa-caret-down"></i></a>
+          <ul>
+            <li><a href="./Chicken/chicken.html">Chicken </a></li>
+            <li><a href="./Pork/pork.html">Pork </a></li>
+            <li><a href="./Beef/beef.html">Beef </a></li>
+            <li><a href="./Seafood/seafood.html">Seafood </a></li>
+          </ul>
+        </li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- end of 2nd header -->
+
+   <!--Start of Image Slider -->
+   <div class="carousel-wrapper">
+      <span id="item-1"></span>
+      <span id="item-2"></span>
+      <span id="item-3"></span>
+      <div class="carousel-item item-1">
+        <a href="#item-3" class="arrow-prev arrow"></a>
+        <a href="#item-2" class="arrow-next arrow"></a>
+      </div>
+  
+      <div class="carousel-item item-2">
+        <a href="#item-1" class="arrow-prev arrow"></a>
+        <a href="#item-3" class="arrow-next arrow"></a>
+      </div>
+  
+      <div class="carousel-item item-3">
+        <a href="#item-2" class="arrow-prev arrow"></a>
+        <a href="#item-1" class="arrow-next arrow"></a>
+      </div>
+  
+    </div>
+   <!--End of Image Slider -->
+
+
+   <!-- Start of Footer -->
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="about.html">About</a>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+          Copyright 2023
+        </p>
+    </footer>
+   <!-- End of Footer -->
+
+</body>
+</html>
