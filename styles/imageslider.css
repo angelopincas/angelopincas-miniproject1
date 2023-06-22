@@ -48,16 +48,16 @@
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url('/pictures/Chicken/Chicken\ Inasal.webp');
+  background: url('../pictures/Chicken/Chicken\ Inasal.webp');
   background-size: 100% 100%;
 }
 
 .item-2 {
-  background: url('/pictures/Pork/toyomansi\ pork\ chop.jpg');
+  background: url('../pictures/Pork/toyomansi\ pork\ chop.jpg');
   background-size: 100% 100%;
 }
 .item-3 {
-  background: url('/pictures/Beef/kare-kare.webp');
+  background: url('../pictures/Beef/kare-kare.webp');
   background-size: 100% 100%;
 }
 
